@@ -7,6 +7,20 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity$PlaceholderFragment">
 
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="2"
+        android:rowCount="2">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="14dp"
+            android:text="0"/>
+    </GridLayout>
+
+
     <TextView
         android:id="@+id/section_label"
         android:layout_width="wrap_content"
